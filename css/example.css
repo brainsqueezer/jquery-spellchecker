@@ -1,0 +1,52 @@
+body {
+	margin: 1em;
+	font-family: 'lucida grande', Helvetica, Verdana, Arial, sans-serif;
+}
+p {
+	margin: 0 0 1em 0;
+}
+textarea {
+	font-size: 90%;
+	margin-bottom: 10px;
+	padding: 5px;
+	border: 1px solid #999;
+	border-color: #888 #ccc #ccc #888;
+	border-style: solid;
+	height: 20em;
+	width: 550px;
+}
+#textarea-example {
+	width: 562px;
+}
+.loading {
+	padding: 0.5em 8px;
+	display: none;
+	font-size: small;
+}
+.helper-left {
+	float: left;
+}
+.helper-right {
+	float: right;
+}
+.helper-hidden {
+	display: none;
+}
+.helper-clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.helper-clearfix {
+	display: inline-block;
+}
+/* required comment for clearfix to work in Opera \*/
+* html .helper-clearfix {
+	height: 1%;
+}
+.helper-clearfix {
+	display: block;
+}
+
