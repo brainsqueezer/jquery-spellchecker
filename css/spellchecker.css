@@ -63,6 +63,9 @@
 	border: 1px solid #bbb;
 	padding: 4px 6px;
 }
+.spellcheck-badwords-hidden {
+	display: none;
+}
 .spellcheck-sep {
 	padding-right: 0.5em;
 }
